@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Simple InputOutput</title>
+</head>
+<body>
+    <label>Price:</label>
+    <input type="text" id="txtPrice"/>
+    <button onclick="showPriceWithTax();">Submit</button>
+    <p id="pOutput"></p>
+    <script>
+        function showPriceWithTax() {
+            var price = Number(document.getElementById("txtPrice").value); 
+            var priceWithTax = 1.24 * price; 
+            document.getElementById("pOutput").innerHTML = priceWithTax.toFixed(2); 
+        }
+    </script>  
+</body>
+
+</html>
