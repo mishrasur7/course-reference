@@ -74,7 +74,7 @@ function listPlayer() {
     }
     document.getElementById("pOutput").innerHTML = outPutText; 
 }
-//This is not ready yet but still working on it. ------------------------------------------------------------------------------------------------
+//This is not ready yet but still working on it. Logically this should work but I am still not able to fix this. :( ------------------------------------------------------------------------------------------------
 function playerSearch() {
     var nameInput = document.getElementById("text").value; 
     var outPutText; 
